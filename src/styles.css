@@ -1,0 +1,55 @@
+body {
+  background: lightgray;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#search {
+  padding: 8px;
+  min-width: 200px;
+}
+
+.container {
+  display: flex;
+}
+
+.results,
+.contacts,
+.add {
+  flex: 1;
+}
+
+.each-contact {
+  display: block;
+  width: 100%;
+  background: lightblue;
+  margin: 8px 0;
+  overflow: auto;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.each-contact img {
+  float: left;
+  display: block;
+  width: 40px;
+}
+
+.each-contact span {
+  display: block;
+  float: left;
+  padding: 8px;
+}
+
+#add-input {
+  padding: 8px;
+}
+
+.add button {
+  padding: 8px;
+  background: red;
+  color: white;
+}
